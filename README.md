@@ -1,9 +1,3 @@
-Perfect 👌 I’ll keep it professional but more natural and less “corporate-heavy”.
-
-You can copy this updated version:
-
----
-
 # Industrial B2B Platform – Full Stack Project
 
 This is a full-stack B2B platform built with **Angular 17** and **Spring Boot 3.2**.
