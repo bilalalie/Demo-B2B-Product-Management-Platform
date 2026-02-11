@@ -1,0 +1,46 @@
+{
+  "name": "al-jazari-industries",
+  "version": "1.0.0",
+  "description": "Al-Jazari Industries - Engineering-Driven Clean Air Solutions",
+  "author": "Your Name",
+  "license": "MIT",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "start:open": "ng serve --open",
+    "start:prod": "ng serve --configuration production",
+    "build": "ng build",
+    "build:prod": "ng build --configuration production --base-href /",
+    "build:stats": "ng build --configuration production --stats-json",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "format": "prettier --write \"src/**/*.{ts,html,scss,css,json}\"",
+    "format:check": "prettier --check \"src/**/*.{ts,html,scss,css,json}\""
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^17.3.0",
+    "@angular/common": "^17.3.0",
+    "@angular/compiler": "^17.3.0",
+    "@angular/core": "^17.3.0",
+    "@angular/forms": "^17.3.0",
+    "@angular/platform-browser": "^17.3.0",
+    "@angular/platform-browser-dynamic": "^17.3.0",
+    "@angular/router": "^17.3.0",
+    "rxjs": "~7.8.1",
+    "tslib": "^2.6.2",
+    "zone.js": "~0.14.4"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^17.3.0",
+    "@angular/cli": "^17.3.0",
+    "@angular/compiler-cli": "^17.3.0",
+    "@types/node": "^20.11.25",
+    "typescript": "~5.4.2",
+    "prettier": "^3.2.5"
+  },
+  "engines": {
+    "node": ">=18.13.0",
+    "npm": ">=9.0.0"
+  }
+}
